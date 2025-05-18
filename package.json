@@ -1,0 +1,25 @@
+{
+  "name": "@flyskypie/j4ts-batik-svgpathparser",
+  "version": "1.0.0",
+  "main": "./dist/j4ts-batik-svgpathparser.js",
+  "module": "./dist/j4ts-batik-svgpathparser.js",
+  "types": "./dist/j4ts-batik-svgpathparser.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "./mvnw install && gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "6.0.0-alpha.1"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "./dist/j4ts-batik-svgpathparser.js",
+    "./dist/j4ts-batik-svgpathparser.d.ts",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
+}

@@ -47,7 +47,7 @@
 					<!-- <sourceMap>true</sourceMap> -->
 					<bundle>true</bundle>
 					<declaration>true</declaration>
-					<outDir>src/main/resources/META-INF/resources/webjars/${project.artifactId}/${project.version}</outDir>
+					<!-- <outDir>src/main/resources/META-INF/resources/webjars/${project.artifactId}/${project.version}</outDir> -->
 					<!-- <dtsOut>src/main/resources/META-INF/resources/typings/${project.artifactId}/${project.version}</dtsOut> -->
 					<targetVersion>ES3</targetVersion>
 					<ignoredProblems>
@@ -73,9 +73,9 @@
 						<configuration>
 							<target>
 								<echo message="copying generated bundles to dist..." />
-								<copy
+								<!-- <copy
 									file="src/main/resources/META-INF/resources/webjars/${project.artifactId}/${project.version}/bundle.js"
-									tofile="dist/${project.artifactId}.js" verbose="true" />
+									tofile="dist/${project.artifactId}.js" verbose="true" /> -->
 								<!-- <copy
 									file="target/ts/bundle.ts"
 									tofile="dist/${project.artifactId}.d.ts" verbose="true" /> -->
